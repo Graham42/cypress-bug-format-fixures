@@ -1,0 +1,30 @@
+{
+  "name": "cypress-bug-format-fixures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "fix": "prettier --write **/*.{js,jsx,json,css,scss,less,md}",
+    "cy": "cypress",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graham42/cypress-bug-format-fixures.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Graham42/cypress-bug-format-fixures/issues"
+  },
+  "homepage": "https://github.com/Graham42/cypress-bug-format-fixures#readme",
+  "devDependencies": {
+    "cypress": "^1.0.3",
+    "eslint": "^4.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.8.2"
+  }
+}
